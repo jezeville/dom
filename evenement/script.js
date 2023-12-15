@@ -9,6 +9,8 @@ const clickOnSquare = (e) => {
     console.log(e.target.classList[1])
     console.log(getElapsedTime())
 }
+
+
 const creatediv = (e) => {
     let div = document.createElement('div');
     div.className = "displayedsquare";
@@ -16,6 +18,9 @@ const creatediv = (e) => {
     let wrapper = document.querySelector('.displayedsquare-wrapper');
     wrapper.appendChild(div);
 }
+
+
+
 const information = (e) => {
     let ul = document.querySelector('ul');
     let li = document.createElement('li');

@@ -5,6 +5,7 @@ let last = ol.children[4];
 let first = ol.children[0];
 ol.insertBefore(last, first);
 
+
 // Déplacez le <h2>de la troisième section dans la deuxième et vice-versa
 
 let section = document.querySelectorAll('section');
